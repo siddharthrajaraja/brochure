@@ -1,0 +1,26 @@
+<b>Patron</b>
+<br>
+Dr.Mukesh D. Patil
+<br>
+Principal
+<br>
+<br>
+<b>Convenor</b>
+<br>
+Dr. Amarsinh Vidhate
+<br>
+Professor Dept. of Computer Engneering <br>
+Chairmain Training & Placement Cell
+<br> 
+<b> Coordinator </b>
+<br>
+<% var teachers =['Prathamesh','Sachin Bhopi','Anup Patil','Rohit Chudiwal','Vivek Khalaane'] , 
+    department =['Computer Engineering','Information Technology','Electronics Engineering','Electronics and Telecommunication Engineering','Instrumentation Engineering'];
+%>
+
+<%for(var i=0;i<teachers.length;i++){%>
+    <br>         
+    <%=teachers[i]%> 
+                    <br>
+                Professor <%=department[i]%> 
+    <%};%>
