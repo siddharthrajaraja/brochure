@@ -1,0 +1,18 @@
+{
+  "name": "brochure",
+  "version": "1.0.0",
+  "description": "Brochure by Ejaaz and Siddharth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ejaaz/siddharth",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7"
+  }
+}
